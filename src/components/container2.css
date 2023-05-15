@@ -1,0 +1,265 @@
+
+  
+  
+  
+.form{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+border-radius: 8px;
+position: absolute;
+width: 500px;
+height: 480px;
+left: 700px;
+top: 72px;
+
+background: #FFFFFF;
+}
+
+.one{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+width: 501px;
+height: 308px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.two{
+    font-size: 11px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 5px;
+isolation: isolate;
+font-weight: bold;
+width: 360px;
+height: 17px;
+
+border: 2px solid #BEBEBE;
+border-radius: 4px;
+
+/* Inside auto layout */
+cursor: pointer;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.form-check-input{
+    cursor: pointer;
+}
+.form-check-label{
+    cursor: pointer;
+}
+.buttons{
+    padding: 10px 10px;
+    margin: 10px;
+}
+.rightcontainer{
+    margin-left: 300px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 30px;
+height: 10px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.topcontainer{
+    display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+width: 30px;
+height: 10px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.bottomcontainer{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+width: 30px;
+height: 14px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.hr-line {
+    border: 2px solid BEBEBE;
+    width: 360px;
+  }
+  .pricetext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    width: 453px;
+    height: 10px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .c1{
+    width: 129px;
+    height: 19px;
+    color: #3C4852;
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 19px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .c2{
+    width: 72px;
+    height: 12px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #3C4852;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .three{
+    font-size: 13px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 5px;
+isolation: isolate;
+
+width: 360px;
+height: 30px;
+
+background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+border: 2px solid #DE4313;
+border-radius: 8px;
+
+/* Inside auto layout */
+cursor: pointer;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+  }
+  .c3{
+    width: 129px;
+    height: 19px;
+    color: #3C4852;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 120%;
+    /* or 19px */
+    color:#DE4313;
+    display: flex;
+    text-align: center;
+    
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+  }
+  .c4{
+    width: 72px;
+    height: 12px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    /* identical to box height, or 16px */
+    
+    display: flex;
+    align-items: center;
+   margin-right: 60px;    
+    color: #3C4852;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .offer-text{
+    color: #DE4313;
+  }

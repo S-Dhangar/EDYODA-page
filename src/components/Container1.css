@@ -1,0 +1,141 @@
+.mainpage{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 799px;
+height: 708px;
+left: 144px;
+top: 72px;
+
+}
+
+
+
+.header{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 799px;
+height: 110px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame1{
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 799px;
+height: 60px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.text{
+    width: 799px;
+height: 20px;
+display: flex;
+
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+/* identical to box height, or 70px */
+
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+}
+.frame2{
+    display: flex;
+flex-direction: row;
+align-items: flex-end;
+
+
+width: 799px;
+height: 65px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.pointer{
+    display: flex;
+flex-direction: row;
+align-items: center;
+width: 799px;
+height: 14px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+}
+.text2{
+    width: 387px;
+height: 14px;
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 25px;
+line-height: 100%;
+/* identical to box height, or 32px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: white;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+  
+  .text .special {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .text .special::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 4px solid red;
+  }
+  
+  

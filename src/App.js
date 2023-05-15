@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css"
+import Navbar from "./components/Navbar.js";
 
+import Container1 from "./components/Container1";
+import Container2 from "./components/Container2";
 function App() {
+let [price,setprice]= useState(99);
+const change=(e)=>{
+  setprice(e);
+}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+<Navbar/>
+    <div className="Content">
+      <div>
+      <Container1 price={price} />
+      </div>
+      <div>
+      <Container2 change={change} price={price+50}/>
+      </div>
+     
+    </div>
     </div>
   );
 }
